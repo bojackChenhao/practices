@@ -1,0 +1,173 @@
+/*蓝色系所有的颜色重载*/
+a:hover {color: #0686F2; }
+.blue_red{color:#0686F2; }
+
+/*top的日历图标*/
+.top .top_right .blue_top_right_box{background: url('../images/blue_rili.png') no-repeat 4px center;}
+
+/*侧边栏*/
+ul.aside_tips li a{background: url('../images/opacity70_2.png') no-repeat;}
+.top .top_right .fl .clock span{background: #0686F2;}
+/*待办事项*/
+.top .backlog p{color: #0686F2;}
+.top .backlog p span{background: #0686F2;}
+.top .backlog a{color: #0686F2;}
+.top .backlog ul li.active{background:url('../images/list_squre3.png') no-repeat 13px center;}
+
+
+/*导航*/
+.nav ul li{width: 142px;}
+.blue_nav{background: #0686F2;height: 60px;}
+.nav-menu > li {border-right:1px solid #9ABADB;}
+
+.front, .back {background: #0686F2;}
+.nav-menu li .active .front,
+.nav-menu li .active .back,
+.nav-menu li a:hover .front,
+.nav-menu li a:hover .back {
+    background-color: #70BBF7;
+    -webkit-background-size: 5px 5px;
+    background-size: 5px 5px;
+    background-position: 0 0, 30px 30px;
+    background-image: -webit-linear-gradient(45deg, #70BBF7 25%, transparent 25%, transparent 75%, #70BBF7 75%, #70BBF7), linear-gradient(45deg, #70BBF7 25%, transparent 25%, transparent 75%, #70BBF7 75%, #70BBF7);
+
+    background-image: -moz-linear-gradient(45deg, #70BBF7 25%, transparent 25%, transparent 75%, #70BBF7 75%, #70BBF7), linear-gradient(45deg, #70BBF7 25%, transparent 25%, transparent 75%, #70BBF7 75%, #0686F2);
+
+    background-image: -ms-linear-gradient(45deg, #70BBF7 25%, transparent 25%, transparent 75%, #70BBF7 75%, #70BBF7), linear-gradient(45deg, #70BBF7 25%, transparent 25%, transparent 75%, #70BBF7 75%, #70BBF7);
+
+    background-image: -o-linear-gradient(45deg, #70BBF7 25%, transparent 25%, transparent 75%, #70BBF7 75%, #70BBF7), linear-gradient(45deg, #70BBF7 25%, transparent 25%, transparent 75%, #70BBF7 75%, #70BBF7);
+
+    background-image: linear-gradient(45deg, #70BBF7 25%, transparent 25%, transparent 75%, #70BBF7 75%, #70BBF7), linear-gradient(45deg, #70BBF7 25%, transparent 25%, transparent 75%, #70BBF7 75%, #70BBF7);
+
+}
+
+
+
+/*底部*/
+.footer_content{background: #0686F2;}
+
+/*分页*/
+.page a{border: 1px solid #004B8B;}
+.page a.first{background:#0686F2 url('../images/page_first.png') no-repeat center; }
+.page a.prev{background:#0686F2 url('../images/page_prev.png') no-repeat center; }
+.page a.last{background:#0686F2 url('../images/page_last.png') no-repeat center; }
+.page a.next{background:#0686F2 url('../images/page_next.png') no-repeat center; }
+
+
+/*搜索区域*/
+.main .search p{color: #000; }
+.main .search p span{color: #000;}
+.main .search p font{color: #0686F2;}
+.main .blue_search p i{background: url(../images/blue_icon.png) no-repeat;}
+.main .blue_search p i.major{background-position: -269px -46px;}
+.main .blue_search p i.up{background-position: -236px -98px;}
+.main .blue_search p i.down{background-position: -293px -98px;}
+.main .blue_search .search_box{border: 1px solid #0686F2;}
+.main .blue_search .search_box button{background: #0686F2;}
+
+/*单选框多选框的颜色重置---开始*/
+.layui-form-radio>i:hover, .layui-form-radioed>i{color: #0686F2;}
+.layui-form-checked[lay-skin=primary] i {
+    border-color: #0686F2;
+    background-color: #0686F2;
+}
+.layui-form-checkbox[lay-skin=primary]:hover i {
+    border-color: #0686F2;
+    color: #fff;
+}
+/*单选框多选框的颜色重置---结束*/
+
+/*首页tab切换*/
+.blue_statistics .statistics_charts .statistics_charts_title span:hover{background-position: -380px -30px;}
+.blue_statistics .statistics_charts .statistics_charts_title span.active{color: #0686F2;background-position: 0 -15px;}
+
+/*标题*/
+.list_title p{border-bottom: 1px solid #0686F2;color:#0686F2;}
+.list_title p span{border-bottom: 2px solid #0686F2;}
+.list_title p span i{background: url("../images/blue_icon.png") no-repeat;background-position: -383px -45px;}
+.blue_list_title2 p span i{background-position: -330px -45px;}
+.blue_list_title3 p span i{background-position: -145px -46px;width: 45px;}
+
+
+/*ul的li的移上的效果*/
+.normal_ul li{background: url('../images/list_squre_blue.png') no-repeat 7px center;}
+.normal_ul li:hover{background: url('../images/list_squre_active_blue.png') no-repeat 5px center;color: #0686F2;}
+
+/*列表页样式*/
+.normal_dl dd span.normal_dl_title{color: #0686F2;}
+.normal_dl dd span font{background: #0686F2;}
+
+.normal_tab_head{border-bottom: 4px solid #0686F2;}
+.normal_tab_head a.active{background: #0686F2;}
+
+
+/*专项领域*/
+.special_field .special .special_title{border-bottom: 1px solid #0686F2;}
+.special_field .special .special_title i{background: url(../images/blue_icon.png) no-repeat;background-position: -44px -76px;}
+
+
+/*新闻列表*/
+.news_list .news_list_title i{background: url(../images/blue_icon.png) no-repeat;background-position: -153px -93px;}
+.news_list .news_list_title1 i{background-position: -94px -93px;}
+.news_list .news_list_title span.active{color: #0686F2;}
+.news_list .news_list_box ul li:hover a{color: #0686F2;}
+
+
+/*最新动态*/
+.new_news div p.new_news_button a.active{background: #0686F2;}
+.new_news div p.new_news_more a{color:#0686F2;}
+
+.area_border{border-top: 4px solid #0686F2;}
+
+/*黑名单*/
+.normal_dl_2 dt{border-top: 3px solid #0686F2;}
+.normal_dl_2 dt span{color:#0686F2;}
+
+/*专项领域*/
+.list_title7 p span{border-bottom: 4px solid #0686F2;}
+.special_main .special_main_effect p.special_main_effect_title{color: #0686F2;}
+.special_main .special_main_effect .special_main_effect_left ul li:hover{color: #0686F2;}
+.special_main .special_main_effect .special_main_effect_left ul li font{color: #0686F2;}
+
+.special_main .search{border-bottom: 4px solid #0686F2;}
+.special_main .search span{color: #0686F2;}
+
+/*精选案例*/
+.cases_list .case_box .case_title{color: #0686F2;}
+.cases_list .case_box .case_resouce font{background: #0686F2;}
+
+/*信息详情*/
+.info{border-top: 3px solid #0686F2;}
+.info .info_title .info_title_title{color: #0686F2;}
+
+
+/*首页专项领域*/
+.blue_special_field{height: 608px;position: relative;margin-bottom: 20px;}
+.blue_special{position: absolute;z-index: 2;background: #fff;width: 1200px;bottom: 60px;height: 527px;border: 1px solid #D7D7D7;box-shadow: 0 0 6px #C1C1C1;}
+.blue_special_field img{position: absolute;bottom: 0;width: 100%;}
+.blue_special .special_title{border-bottom: 1px solid #0686F3;font-size: 18px;font-weight: bold;color: #000;line-height: 40px;padding-left: 10px;}
+.blue_special .special_title i{display: inline-block;width: 45px;background: url('../images/blue_icon.png') no-repeat;background-position: -46px -96px;}
+.blue_special .blue_special_box{display: inline-block;width:19%;height: 240px;text-align: center;font-size: 16px;font-weight: bolder;color: #012F85;}
+.blue_special .blue_special_box .special_box_img{display: inline-block;width: 120px;height: 120px;border-radius: 50%;border: 1px solid #EAEAEA;margin: 20px auto;box-shadow: 0 0 6px #EAEAEA;}
+.blue_special .blue_special_box .special_box_img i{display: inline-block;width: 50%;height: 50%;margin:25% auto;background: url('../images/blue_icon.png') no-repeat;background-position: -45px -166px;}
+.blue_special .blue_special_box .special_box_img2 i{background-position: -127px -166px;}
+.blue_special .blue_special_box .special_box_img3 i{background-position: -208px -166px;}
+.blue_special .blue_special_box .special_box_img4 i{background-position: -282px -166px;}
+.blue_special .blue_special_box .special_box_img5 i{background-position: -344px -166px;}
+
+/*工作台*/
+.workbench .workbench_head a{color: #0686F3;}
+.workbench .workbench_head a.active{background: #0686F3;}
+.workbench_normal dd span.launch i{color: #0686F3;border: 1px solid #0686F3;}
+.workbench_normal dd .workbench_item .expand a i{color: #0686F3;}
+.workbench_normal dd .workbench_item .option .text-option:hover{color: #0686F3;}
+.workbench_normal dd .workbench_item .option .text-option.active{background:url('../images/text-option_2.png') no-repeat left center; color: #0686F3;}
+
+.workbench_normal dd .workbench_item table tr td font,.workbench_normal dd .workbench_item table tr td a{color: #0686F3;}
+
+/*上传样式*/
+.workbench_normal dd span label{color: #0686F3;border: 1px solid #0686F3;}
+
+/*发起弹层*/
+.launch_layer{color: #0686F3;}
+.launch_layer .btns .launch_layer_btn.launch_layer_btn_yes{background: #0686F3;}

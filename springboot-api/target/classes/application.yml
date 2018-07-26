@@ -1,0 +1,18 @@
+spring:
+  thymeleaf:
+      cache: false
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+      cache: false
+  application:
+    name: springboot-api
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8088/eureka/
+    instance:
+          prefer-ip-address: true
+server:
+  port: 7888
