@@ -1,1 +1,1 @@
-ws_pro
+ws_dev
